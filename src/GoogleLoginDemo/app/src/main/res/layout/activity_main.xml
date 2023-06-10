@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/margin_standard"
+        app:cardElevation="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="32dp">
+
+            <ImageView
+                android:id="@+id/image_logo"
+                android:layout_width="128dp"
+                android:layout_height="32dp"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/margin_standard"
+                android:contentDescription="Google"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:id="@+id/textView_signIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginVertical="@dimen/margin_standard"
+                android:fontFamily="@font/sans_regular"
+                android:text="Sign In"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView_subHeading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_signIn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16dp"
+                android:text="Use your Google Account"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_email"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_subHeading"
+                android:layout_marginVertical="@dimen/margin_standard"
+                app:endIconMode="clear_text">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tie_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="emailAddress"
+                    android:hint="Email or phone"
+                    android:inputType="textEmailAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_forgotEmail"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/til_email"
+                android:letterSpacing="0.025"
+                android:text="Forgot email?"
+                android:textAllCaps="false" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button_forgotEmail"
+                android:layout_marginTop="32dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_notYourComputer" />
+
+                <TextView
+                    android:id="@+id/button_learnMore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:letterSpacing="0.025"
+                    android:text="Learn more"
+                    android:textColor="@color/purple_200"
+                    android:textStyle="bold" />
+
+                <androidx.coordinatorlayout.widget.CoordinatorLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="32dp">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/button_createAccount"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/til_email"
+                        android:layout_gravity="start"
+                        android:fontFamily="@font/sans_regular"
+                        android:letterSpacing="0.025"
+                        android:text="Create account"
+                        android:textAllCaps="false"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/button_signIn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/til_email"
+                        android:layout_gravity="end"
+                        android:fontFamily="@font/sans_regular"
+                        android:letterSpacing="0.025"
+                        android:text="Next"
+                        android:textAllCaps="false"
+                        android:textStyle="bold" />
+                </androidx.coordinatorlayout.widget.CoordinatorLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

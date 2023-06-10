@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ScrollViewExample</string>
+    <string name="text_imageInfo">Nikola Tesla supporting two wireless light bulbs.</string>
+    <string name="text_teslaInfo">Nikola Tesla was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist best known for his contributions to the design of the modern alternating current electricity supply system.</string>
+</resources>

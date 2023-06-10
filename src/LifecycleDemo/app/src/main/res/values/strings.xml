@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LifecycleDemo</string>
+    <string name="text_lifeCycleInfo">This application is to demonstrate the various lifecycles of an Android app. Keep an eye on the Toasts and the LogCat.</string>
+</resources>

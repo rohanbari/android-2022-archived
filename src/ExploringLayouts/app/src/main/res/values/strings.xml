@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ExploringLayouts</string>
+    <string name="text_information">Select a layout to view the example. Click any one of the buttons to launch their respective activity.</string>
+</resources>

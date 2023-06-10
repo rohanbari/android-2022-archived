@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SwipeRefreshLayoutDemo</string>
+    <string name="text_textViewDesc">Swipe to update time</string>
+</resources>

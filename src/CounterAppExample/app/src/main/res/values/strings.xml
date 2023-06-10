@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CounterAppExample</string>
+    <string name="text_startCounter">Click the button below to start counter.</string>
+</resources>

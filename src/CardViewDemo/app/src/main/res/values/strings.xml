@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CardViewDemo</string>
+    <string name="nikola_tesla_info">Picture of Nikola Tesla</string>
+    <string name="mountain_desc">A mountain is an elevated portion of the Earth\'s crust, generally with steep sides that show significant exposed bedrock. A mountain differs from a plateau in having a limited summit area, and is larger than a hill, typically rising at least 300 metres above the surrounding land.</string>
+    <string name="link_mountain">https://en.wikipedia.org/wiki/Mountain</string>
+</resources>

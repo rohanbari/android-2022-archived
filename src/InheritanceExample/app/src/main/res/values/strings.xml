@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">InheritanceExample</string>
+    <string name="text_description">This is an example of inheritance in OOP. Actions can only be seen under debug log. This application is not meant to be interacted graphically.</string>
+</resources>

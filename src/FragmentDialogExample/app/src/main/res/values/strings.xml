@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FragmentDialogExample</string>
+    <string name="text_description">Click the Floating Action Button to view a dialog</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="link_helloWorld">https://github.com/rohanbari/HelloWorld</string>
+    <string name="text_clickMe">Hey there! Click me to open the repo.</string>
+</resources>
